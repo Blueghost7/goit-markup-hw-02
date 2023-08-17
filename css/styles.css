@@ -1,0 +1,11 @@
+/* Hedaer */
+.link {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+body {}
