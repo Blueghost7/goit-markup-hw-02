@@ -9,8 +9,8 @@ ul {
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
     color: #434455;
-    s;
 }
 
 
@@ -26,12 +26,13 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
-    color: #2E2F42;
-    ;
+    color: #4D5AE5;
+    text-transform: uppercase;
 }
 
 .header-colored-logo {
-    color: #4D5AE5;
+    color: #2E2F42;
+    ;
 }
 
 .header-nav-item {
@@ -59,6 +60,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
+    font-style: normal;
+    color: #434455;
 }
 
 .header-address-item:hover,
@@ -133,6 +136,15 @@ body {
 
 }
 
+.our-team-section-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+
 .our-team-section-item-title {
     font-size: 20px;
     font-weight: 500;
@@ -158,10 +170,11 @@ body {
 .our-portfolio-section-title {
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    text-transform: capitalize;
 }
 
 .our-portfolio-section-item-title {
@@ -194,17 +207,19 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
-    color: #F4F4FD;
+    color: #4D5AE5;
+    text-transform: uppercase;
 }
 
 .footer-section-logotipe {
-    color: #4D5AE5;
+    color: #F4F4FD;
+
 }
 
 .footer-section-paragraph {
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
     color: #F4F4FD;
